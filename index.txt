@@ -1,0 +1,10 @@
+1-Hello World 
+2-Add 2 numbers 
+3-Arithmatic Operations 
+4-Swapping using 3rd Variable 
+5-Simple Intrest 
+6-Area of circle 
+7-Heron's Formula 
+8-Swapping without use of temporary variable
+9-Printing ASCII value
+10-Conditional Operator
