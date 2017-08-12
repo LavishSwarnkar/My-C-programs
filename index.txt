@@ -7,8 +7,8 @@
 7-Heron's Formula 
 8-Swapping without use of temporary variable
 9-Printing ASCII value
-10-Nested Conditional Operator to check equality of 2 numbers
-11-Nested Conditional Operator to check equality of 3 numbers
+10-Nested Conditional Operator to compare 2 numbers
+11-Nested Conditional Operator to compare 3 numbers
 12-Using increment & decrement operators
 13-Temprature conversion to °F from °C
 14-Temprature conversion to °C from °F
