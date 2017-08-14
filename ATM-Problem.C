@@ -39,7 +39,7 @@ void main()
      getch();
 }
 int getno(int x)
-{    int no;
+{    unsigned long no;
      no=amt/x;
      amt-=no*x;
      return no;
