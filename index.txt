@@ -14,3 +14,5 @@
 14-Temprature conversion to °C from °F
 15-Calculation of gross salary
 16-Shorthand operators
+17-Bitwise Operators
+18-Sizeof Operator
