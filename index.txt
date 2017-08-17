@@ -23,3 +23,6 @@
 23-Odd Even check
 24-Relational operators I
 25-Relational operators II
+26-Using Logical operators I
+27-Application of Logical operators
+28-Using Logical operators II
