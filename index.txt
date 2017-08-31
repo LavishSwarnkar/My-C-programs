@@ -28,4 +28,11 @@
 28-Using Logical operators II
 29-Switch Case (Day Name)
 30-Switch Case (Vowel check)
-29-Switch Case (Number Name ((0-10) supported)
+31-Switch Case (Number Name ((0-10) supported)
+32-Switch Case (Mini Calculator)
+33-While Loop (Series Printing)
+34-Do While Loop (Series Printing)
+35-For Loop (Series Printing)
+36-Palindrom Check and Reverse of a number
+37-Print Palindrom numbers upto 1000
+38-Factorial Calculator
