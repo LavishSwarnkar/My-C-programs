@@ -36,3 +36,4 @@
 36-Palindrom Check and Reverse of a number
 37-Print Palindrom numbers upto 1000
 38-Factorial Calculator
+39-Prime no check
