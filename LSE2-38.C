@@ -3,15 +3,15 @@
 #include<stdio.h>
 #include<conio.h>
 void main()
-{    int num,n,fact=1;
+{    unsigned long num,n,fact=1;
      clrscr();
      printf("Enter a number to evaluate its Factorial: ");
-     scanf("%d",&num);
+     scanf("%ld",&num);
      n=num;
      while(num>0)
      {	fact*=num;
 	--num;
      }
-     printf("Factorial of %d is %d",n,fact);
+     printf("Factorial of %ld is %ld",n,fact);
      getch();
 }
