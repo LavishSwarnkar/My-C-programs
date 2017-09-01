@@ -7,7 +7,7 @@ void main()
      clrscr();
      printf("Enter initial and final number: ");
      scanf("%d %d",&a,&b);
-     while(a<=n)
+     while(a<=b)
      {	printf("%d\n",a);
 	a++;
      }
