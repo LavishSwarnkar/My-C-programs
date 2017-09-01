@@ -3,12 +3,12 @@
 #include<stdio.h>
 #include<conio.h>
 void main()
-{    int a,b;
+{    int a,b,s;
      clrscr();
      printf("Enter initial and final number: ");
      scanf("%d %d",&a,&b);
-     for(a=20 ; a<=b ; a++)
-     {	printf("%d\n",a);
+     for(s=a ; s<=b ; s++)
+     {	printf("%d\n",s);
      }
      getch();
 }
