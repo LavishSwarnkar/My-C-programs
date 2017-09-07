@@ -34,6 +34,6 @@
 34-Do While Loop (Series Printing)
 35-For Loop (Series Printing)
 36-Palindrom Check and Reverse of a number
-37-Print Palindrom numbers upto 1000
-38-Factorial Calculator
-39-Prime no check
+36C-Print Palindrom numbers upto 1000
+37-Factorial Calculator
+38-Prime no check
