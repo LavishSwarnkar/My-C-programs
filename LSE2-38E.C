@@ -1,4 +1,4 @@
-//LSE2-36C
+//LSE2-36E
 //Using While Loop (Prime numbers upto 1000)
 #include<stdio.h>
 #include<conio.h>
