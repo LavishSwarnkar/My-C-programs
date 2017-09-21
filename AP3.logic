@@ -1,0 +1,2 @@
+% (Ampersand) is Escape Sequence for %d while / (Backslash) is Escape Sequence for /n,/t,",etc.
+Escape Sequence tells the compiler to escape the sequence of predefined characters.
