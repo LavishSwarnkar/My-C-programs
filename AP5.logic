@@ -1,0 +1,14 @@
+The comma operator separates expressions 
+(which have value) in a way analogous to 
+how the semicolon terminates statements,
+and sequences of expressions are enclosed 
+in parentheses analogously to how sequences 
+of statements are enclosed in braces: (a, b, c) 
+is a sequence of expressions, separated by commas, 
+which evaluates to the last expression c while {a; b; c;} 
+is a sequence of statements, and does not evaluate to any value. 
+A comma can only occur between two 
+expressions – commas separate expressions – unlike the semicolon, 
+which occurs at the end of a (non-block) statement – semicolons terminate statements.
+For ex. - i=1,2,3; //Assigns 1 to i as = (Assignment operator) has greater precidency than that of , (Comma Operator)
+i=(1,2,3); //Assigns 3 to i as parenthesis is evaluated first which comes out as 3.
