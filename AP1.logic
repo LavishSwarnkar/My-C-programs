@@ -1,0 +1,8 @@
+printf() actually works right to left and that too by storing expressions' value in Stack which ultimately works as per FILO principle.
+This logic explains both multiple variable increments/decrements as well as multiple usage of variable in a single statement.
+For ex., we have printf("%d %d %d",i++,i++,i++); where i=1;
+Firstly rightmost i++ is encountered and 1 enters Stack then 2 and then 3.
+Afterwards 3 comes out, then 2 and then 1. And the output is 3 2 1.
+Secondly, we have printf("%d %d %d",i,i+1,i+2); where i=1;
+Similarly, here also firstly i+2 is encountered and 3 enters Stack then 2 and then 1.
+Afterwards 1 comes out first, then 2 and ultimately 3. And output is 1 2 3.
