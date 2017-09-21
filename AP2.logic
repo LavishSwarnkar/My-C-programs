@@ -1,0 +1,5 @@
+printf() syntax is int printf(const char*format [,argument, ...]);
+Clearly, printf() returns a int which is eventually the length of string given as argument.
+So this can be used easily to get string length.
+Ex.- int i=printf("Lavish"); //i=6
+     printf("%d",printf("Lavish")); //Prints Lavish6
