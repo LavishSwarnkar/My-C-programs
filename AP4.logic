@@ -1,0 +1,3 @@
+White spaces (such as blanks, tabs, or newlines) in the format string of 
+scanf() match any amount of white space, including none, in the input. 
+Therefore abnormal situation occurs. Avoid Spaces in scanf() format string.
