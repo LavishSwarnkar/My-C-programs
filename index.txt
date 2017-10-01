@@ -74,3 +74,6 @@
 50 - Using Function to print square
 51 - Using Funtions Swapping(Pass by Value)
 52 - Using Funtions Swapping(Pass by Reference)
+53 - Biggest No. among 'n' numbers
+54 - Fibonacci Series
+55 - Function Recursion (Factorial of a number)
