@@ -72,3 +72,5 @@
     1
 46, 47, 48, 49 - Using Function to add two numbers
 50 - Using Function to print square
+51 - Using Funtions Swapping(Pass by Value)
+52 - Using Funtions Swapping(Pass by Reference)
