@@ -78,3 +78,11 @@
 54 - Fibonacci Series
 55 - Function Recursion (Factorial of a number)
 55E - Reverse Recursion
+56 - Array
+57 - Sum & Average
+58 - No. of elements != Size of Array
+58E - Pattern 6
+   1
+  212
+ 32123
+4321234
