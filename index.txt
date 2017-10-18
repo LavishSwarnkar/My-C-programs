@@ -87,3 +87,4 @@
  32123
 4321234
 59 - Using loops for Array Input
+60 - Printing Multiplication Table
