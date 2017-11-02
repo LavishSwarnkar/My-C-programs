@@ -88,3 +88,8 @@
 4321234
 59 - Using loops for Array Input
 60 - Printing Multiplication Table
+61 - 
+62 - Multi Dimensional Array
+63 - Addition of MDA
+63E - Printing MDA as a Matrix
+64 - Multiplication of MDA
