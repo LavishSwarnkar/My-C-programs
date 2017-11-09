@@ -100,3 +100,4 @@
 68 - Strings strlen()
 69 - Strings strcpy()
 70 - Strings strcat()
+71 - Strings - Using Functions
