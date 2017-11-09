@@ -93,3 +93,7 @@
 63 - Addition of MDA
 63E - Printing MDA as a Matrix
 64 - Multiplication of MDA
+65 - Strings Initialisation
+66 - Strings gets(),puts
+67 - Strings getchar()
+67E - Strings getchar()
