@@ -99,3 +99,4 @@
 67E - Strings getchar()
 68 - Strings strlen()
 69 - Strings strcpy()
+70 - Strings strcat()
