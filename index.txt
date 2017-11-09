@@ -97,3 +97,5 @@
 66 - Strings gets(),puts
 67 - Strings getchar()
 67E - Strings getchar()
+68 - Strings strlen()
+69 - Strings strcpy()
