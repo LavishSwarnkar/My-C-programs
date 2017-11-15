@@ -90,15 +90,19 @@
 60 - Printing Multiplication Table
 61 - 
 62 - Multi Dimensional Array
-63 - Addition of MDA
+63 - Addition of Matrices
 63E - Printing MDA as a Matrix
-64 - Multiplication of MDA
-65 - Strings Initialisation
-66 - Strings gets(),puts
-67 - Strings getchar()
-67E - Strings getchar()
-68 - Strings strlen()
-69 - Strings strcpy()
-70 - Strings strcat()
+64 - Multiplication of Matrices
+65 - Strings - Initialisation
+66 - Strings - gets(),puts()
+67 - Strings - getchar()
+67E - Strings - getchar()
+68 - Strings - strlen()
+69 - Strings - strcpy()
+70 - Strings - strcat()
 71 - Strings - Using Functions
-72 - Strings strcmp()
+72 - Strings strcmp(),strcmpi()
+73 - Strings - strlwr(),strupr()
+74 - String Palindrom Check
+75 - Matrix Transpose
+76 - 
