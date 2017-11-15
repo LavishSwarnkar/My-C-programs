@@ -103,6 +103,6 @@
 71 - Strings - Using Functions
 72 - Strings strcmp(),strcmpi()
 73 - Strings - strlwr(),strupr()
-74 - String Palindrom Check
+74 - String - strrev(),Palindrom Check
 75 - Matrix Transpose
 76 - 
