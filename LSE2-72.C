@@ -1,5 +1,5 @@
 //LSE2-72
-//Strings-strcmp()
+//Strings-strcmp(),strcmpi()
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
@@ -13,13 +13,21 @@ void main()
 
 
 	res=strcmp(a,b);           //0 if strlen(a)=strlen(b),-ive if strlen(a)>strlen(b) and +ive if strlen(a)<strlen(b)
-
+        printf("Considering Case,");
 	if(res==0)
-		printf("Length of a and b is equal");
+		printf("a and b are equal");
 	else if(res>0)
-		printf("Length of a is greater than that of b");
+		printf("a is greater than b");
 	else
-		printf("Length of b is greater than that of a");
+		printf("b is greater than a");
+        res=strcmpi(a,b);           //0 if strlen(a)=strlen(b),-ive if strlen(a)>strlen(b) and +ive if strlen(a)<strlen(b)
+        printf("Ignoring Case,");
+	if(res==0)
+		printf("a and b are equal");
+	else if(res>0)
+		printf("a is greater b");
+	else
+		printf("b is greater a");
 
 	getch();
 }
