@@ -29,7 +29,7 @@ void main()
 		}
 	}
 
-	printf("\n\nPrinting addition of A & B, C------------------\n");
+	printf("\n\nPrinting multiplication of A & B, C------------------\n");
 	for(i=0 ; i<R ; i++)
 	{	for(j=0 ; j<C ; j++)
 			printf("%d ",c[i][j]);
