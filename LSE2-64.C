@@ -3,7 +3,7 @@
 #include<stdio.h>
 #include<conio.h>
 void main()
-{       int a[10][10],b[10][10],c[10][10],R,C,i,j;
+{       int a[10][10],b[10][10],c[10][10],R,C,i,j,k;
 	clrscr();
 
 	printf("Configuration------------------");
@@ -24,7 +24,7 @@ void main()
 	for(i=0 ; i<R ; i++)
 	{	for(j=0 ; j<C ; j++)
 		{       c[i][j]=0;
-			for(k=0 ; k<i ; k++)
+			for(k=0 ; k<C ; k++)
 				c[i][j]+=a[i][k]*b[k][j];
 		}
 	}
