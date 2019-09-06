@@ -1,0 +1,60 @@
+Output: 010
+
+Explaination:
+Note: All explainations are as per gcc compiler 6.3.0
+
+sizeof(char*) = 8B
+sizeof(int) = 4B
+
+char* is more inclusive than int, i.e., Range of char* is much larger than that of int.
+char* MAX - 9.2×10^18 = 0x7FFFFFFFFFFFFFFF
+int MAX - 2.1×10^9 = 0x7FFFFFFF
+
+Obviously, when we try to cast char* to int, there is 50% chance that we may lose data.
+Whenever any value of char*'s range greater than 2.1×10^9 is tried to be casted into int will lead to data loss.
+Thus char* to int is a LOSSY CONVERSION.
+
+Now, let's come to the void main()'s first line:-
+>> char s[2]={'A', 'B'}, t='\n';
+When we refer to s, it is implicity a char*, i.e., a pointer pointing to a char value. And that char is first element of s, i.e., 'A'.
+Let this address be = 0x8FFFFFFF = 2415919103
+At Memory location 0x8FFFFFFF, 'A' is stored and s=0x8FFFFFFF.
+
+Coming to second line:-
+>> int a=s, *b=&a, c=t;
+When s is assigned to a, implicity char* is casted to int, which as we know from above, has 50% chance of being LOSSY CONVERSION.
+Let's find out if it is in this case or not?
+s = 0x8FFFFFFF
+a, which is int can hold MAX value 0x7FFFFFFF.
+But s is clearly greater than 0x7FFFFFFF, i.e., 0x8FFFFFFF > 0x7FFFFFFF
+Due to wrapping of ranges, a holds -1879048193 rather than 0x8FFFFFFF (2415919103).
+Thus a & s are not equal at this point itself.
+
+b is pointer of type int holding address of a and pointing to a. Here, we are not concerned of what is address of a. We must know that when we write, *b (read as value at b), we are accessing a. 
+
+When t, which is a char, is assigned to c, c holds ASCII value of t, i.e., 10 ('\n'). Thus c=10.
+Note that assigning string (or we can say char*)  to a int is different from assigning char to int.
+
+Before analyzing third line. Consider:-
+>> printf("%d, %d", *b, s);
+Here *b is int a and s is a char*. We previously casted char* s to int a at line#2. While printing, *b is already int (=-1879048193) and s must be casted to int before printing because its %d. Thus now s also gives value -1879048193 rather than 0x8FFFFFFF (2415919103) for printing.
+So, output is: -1879048193, -1879048193
+You may infer that *b and s are equal at this point, but they aren't because *b lost data when s was assigned to it due to type casting and the value of s we got by printing is not it's actual value.
+
+Lastly, coming to the third line:-
+>> printf("%d%d", *b==s, c);
+c = 10, Thus output will be _10.
+
+*b==s : The basis of comparison is to convert them to similar types. *b is int and s is char*. 
+C compiler here tries to do LOSSLESS CONVERSION  for us, i.e., int to char* (4B to 8B).
+But we have already lost data while a=s assignment.
+Now int *b will be casted to char* for similar type:
+Previous value = -1879048193
+New value = -1879048193
+There will be no change in value of s as it is already in char*.
+Value of s = 0x8FFFFFFF (2415919103)
+Now clearly, *b is not equal to s:
+-1879048193 ≠ 2415919103
+So, *b==s evaluates to 0.
+
+Hence we get output as 010.
