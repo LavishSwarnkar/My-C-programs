@@ -4,14 +4,15 @@
 #include<conio.h>
 void add(int n1, int n2)
 {       int s;
-	s=n1+n2;
+	s=n1+n2;   //adding two numbers 
 	printf("\n%d + %d = %d",n1,n2,s);
 }
-void main()
+void main()   // main() function
 {    int n1,n2;
      clrscr();
-     printf("Enter two numbers: ");
+     printf("Enter two numbers: ");     
      scanf("%d %d",&n1,&n2);
      add(n1,n2);
-     getch();
+     getch();             
 }
+// program completed
