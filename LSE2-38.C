@@ -1,21 +1,32 @@
 //LSE2-39
-//Using While loop (Prime no check)
+//Using for loop (Prime no check)
 #include<stdio.h>
-#include<conio.h>
-#include<math.h>
-void main()
-{    int no,i,c=0;
-     clrscr();
-     printf("Enter number to check if it is Prime: ");
-     scanf("%d",&no);
-     i=sqrt(no)+1;
-     while(i>1)
-     {	if(no%i--==0)
-		c++;
-     }
-     if(c==0)
-	printf("Yes,it is prime");
-     else
-	printf("No, it is not prime");
-     getch();
+#include<stdlib.h>
+int main()
+{
+    int n,i,flag;
+    printf("Enter the number:");
+    scanf("%d",&n);
+    if(n==1)
+    {
+        printf("Number is not prime");
+        exit(0);
+    }
+    for(i=2;i<=n/2;i++)
+    {
+        if(n%i==0)
+        {   
+            flag=1;
+            break;
+        }
+    }
+    if(flag==1)
+    {
+        printf("The number is  not prime");
+    }
+    else
+    {
+        printf("The number is prime");
+    }
+    return 0;
 }
